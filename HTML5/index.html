@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+
+
+<table>
+	<caption>Superheroes</caption>
+	<colgroup>
+		<col> <!-- первая колонка из одного столбца -->
+		<col span="2" class="batman"> <!-- вторая колонка из 2 столбцов -->
+		<col span="2" class="flash"> <!-- третья колонка из 2 столбцов -->
+	</colgroup>
+	<tr>
+		<td></td>
+		<th scope="col">Batman</th>
+		<th scope="col">Robin</th>
+		<th scope="col">The Flash</th>
+		<th scope="col">Kid Flash</th>
+	</tr>
+	<tr>
+		<th scope="row">Skill</th>
+		<td>Smarts</td>
+		<td>Dex, acrobat</td>
+		<td>Super speed</td>
+		<td>Super speed</td>
+	</tr>
+</table>
+
+
+<br>
+
+
+<input list="test_list" name="test" id="test" />
+<datalist id="test_list">
+	<option value="one">
+	<option value="two">
+	<option value="three">
+</datalist>
+
+
+<br>
+
+
+<details>
+	<summary>Общее описание</summary>
+	Детальное описание в развернутом виде <br>
+	Возможно в несколько строк.
+</details>
+
+
+<br>
+
+
+<form>
+	<fieldset>
+		<legend>Join Our List</legend>
+		<ol>
+			<li><label>Name: <input type="text" name="username"></label></li>
+			<li><label>Password: <input type="text" name="pswd"></label></li>
+		</ol>
+	</fieldset>
+</form>
+
+
+<br>
+
+
+<p>Which OS have you used?</p>
+<ul>
+	<li><input type="checkbox" name="os" value="win" checked="">Windows</li>
+	<li><input type="checkbox" name="os" value="linux">Linux</li>
+	<li><input type="checkbox" name="os" value="mac">MacOS</li>
+	<li><input type="checkbox" name="os" value="dos" disabled>DOS</li>
+</ul>
+
+
+<br>
+
+
+<p>Which of OS do you prefer?</p>
+<ul>
+	<li><input type="radio" name="os" value="win">Windows</li>
+	<li><input type="radio" name="os" value="linux">Linux</li>
+	<li><input type="radio" name="os" value="mac" checked>MacOS</li>
+	<li><input type="radio" name="os" value="dos">DOS</li>
+</ul>
+
+
+<br>
+
+
+<input type="color" name="background" value="#ffaa11">
+
+
+<br>
+<br>
+
+
+<input type="date" name="birthday" value="2010-10-03" min="2000-01-01" max="2020-01-01">
+
+
+<br>
+<br>
+
+
+<input type="datetime-local" name="post">
+
+
+<br>
+<br>
+
+
+<input type="email" name="address" placeholder="user@example.com">
+
+
+<br>
+<br>
+
+
+<input type="file" name="attachment" size="28">
+
+
+<br>
+<br>
+
+
+<input type="image" alt="Send me">
+
+
+<br>
+<br>
+
+
+<input type="month" name="expires" value="2010-09">
+
+
+<br>
+<br>
+
+
+<input type="number" name="price" min="10" max="1000" step="10" placeholder="N">
+
+
+<br>
+<br>
+
+
+<input type="password" name="password" size="8" maxlength="12" placeholder="password">
+
+
+<br>
+<br>
+
+
+<input type="range" name="range" min="-100" max="100" step="10">
+
+
+<br>
+<br>
+
+
+<form oninput="result.value = range.value">
+	<input type="range" name="range" min="-100" max="100" step="10">
+	<output name="result">0</output>
+</form>
+
+<br>
+
+
+<form>
+	<input type="range" name="range" min="-10" max="10">
+	<input type="reset" name="reset" value="reset button">
+</form>
+
+
+<br>
+
+
+<input type="search" name="srch" size="25" placeholder="Поисковый запрос">
+
+
+<br>
+<br>
+
+
+<input type="tel" name="telephone" placeholder="000-000-0000" >
+
+
+<br>
+<br>
+
+
+<input type="text" name="username" size="15" maxlength="50" placeholder="Enter your name">
+
+
+<br>
+<br>
+
+
+<input type="time" name="currenttime" value="22:15:30">
+
+
+<br>
+<br>
+
+
+<input type="url" name="blog" size="25" placeholder="http://www.example.com">
+
+
+<br>
+<br>
+
+
+<input type="week" name="thisweek" value="2019-W34">
+
+
+<br>
+<br>
+
+
+<input type="button" name="button" value="Just button">
+
+
+<br>
+<br>
+
+
+<p>Developer Tools opens with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd></p>
+
+
+<br>
+
+
+<fieldset>
+	<legend>Mailing list sign-up</legend>
+	<ul>
+		<li><label><input type="radio" name="list"> Add me to mailing list</label></li>
+		<li><label><input type="radio" name="list"> No thanks</label></li>
+	</ul>
+</fieldset>
+
+
+<br>
+
+
+<map name="square">
+	<area shape="rect" coords="0,0,50,50" href="#red" alt="red">
+	<area shape="rect" coords="51,0,100,50" href="#green" alt="green">
+	<area shape="rect" coords="0,51,50,100" href="#blue" alt="blue">
+	<area shape="rect" coords="51,51,100,100" href="#grey" alt="grey">
+</map>
+<img usemap="#square" src="img/square.jpg" alt="Color sqare">
+
+
+<br>
+<br>
+
+
+<p>Тэг mark используется для <mark>привлечения внимания</mark> пользователя</p>
+
+
+<br>
+
+
+<label for="battery">Battery charge Meter:</label>
+<meter 	id="battery" 
+		min="0" 
+		max="100" 
+		low="25" 
+		high="50" 
+		optimum="75"
+		value="80"></meter>
+
+
+<br>
+<br>
+
+
+<p>What is your favorite ice-cream?</p>
+<select name="ice-cream">
+	
+	<option>--Choose an ice-cream--</option>
+
+	<optgroup label="traditional">
+		<option>Vanilla</option>
+		<option>Chocolate</option>
+	</optgroup>
+	<optgroup label="specially">
+		<option>Rocky Road</option>
+		<option>Praline Pecan</option>
+	</optgroup>
+	<optgroup label="unavailable" disabled>
+		<option>Cherry</option>
+		<option>Dark Chocolate</option>
+	</optgroup>
+	
+</select>
+
+
+<br>
+<br>
+
+
+<form oninput="result.value = parseInt(a.value) + parseInt(b.value)">
+	<input type="range" name="a" value="50"> +
+	<input type="number" name="b" value="10"> = 
+	<output name="result">60</output>
+</form>
+
+
+<br>
+
+
+<p>Параграф - <code>P</code> - это <b>блочный элемент</b>. Это основной элемент текстового документа.</p>
+
+
+<br>
+<br>
+
+
+<pre>
+	Элемент <code>pre</code> сохраняет 
+		форматирование
+			текста.
+
+			^__^ 
+			(oo)\_______
+			(__)\       )\/\
+			    ||----w |
+			    ||     ||
+</pre>
+
+
+<br>
+<br>
+
+
+<form oninput="bar.value = range.value">
+	<label for="bar">Example <b>progress</b> bar:</label>
+	<progress id="bar" value="50" max="100">50%</progress>
+	<input type="range" name="range" min="0" max="100">
+</form>
+
+
+<br>
+
+
+<p>They say <q>May the force be with you</q> (q-tag example)</p>
+
+
+<br>
+
+
+<p>Контент с тэгом s не является точным или релевантным:
+<s>например вот этот</s></p>
+
+
+<br>
+
+
+<p>Контент с тэгом samp <samp>выводится программами или сценариями</samp></p>
+
+
+<br>
+
+
+<select name="example">
+	<option>--Select tag--</option>
+	<option>value 1</option>
+	<option>value 2</option>
+	<option>value 3</option>
+</select>
+
+
+<br>
+<br>
+
+
+<p>Контент с тэгом small <small>применяется для врезки или заметки</small></p>
+
+
+<br>
+
+
+<span>span - строчный аналог блочного div'a. Универсальный контейнер для строчного контента</span>
+
+
+<br>
+<br>
+
+
+<p>strong - семантический тэг, подчеркивающий <strong>серьезность высказывания</strong></p>
+
+
+<br>
+
+
+<style type="text/css">
+	.testStyle {
+		color: blue;
+		background-color: #c5c5c5;
+		height: 40px;
+		width: 200px;
+	}
+</style>
+<p class="testStyle">Пример использоватения тега <b>style</b> внутри HTML.</p>
+
+
+<br>
+
+
+<p>sub - форматирование в нижнем индексе, имеющее специфическое значение: H<sub>2</sub>O</p>
+
+
+<br>
+
+
+<p>sup - форматирование в верхнем индексе, имеющее специфическое значение: E = mc<sup>2</sup></p>
+
+
+<br>
+
+
+<details>
+	<summary>Легенда, заголовок или резюме - тэг summary</summary>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.
+</details>
+
+
+<br>
+
+
+<p>Simple table with headers (th) in rows and columns</p>
+<table>
+	<tr>
+		<th></th>
+		<th>First name</th>
+		<th>Last name</th>
+	</tr>
+	<tr>
+		<th>Person1</th>
+		<td>John</td>
+		<td>Doe</td>
+	</tr>
+	<tr>
+		<th>Person2</th>
+		<td>Jane</td>
+		<td>Doe</td>
+	</tr>
+	<tr>
+		<th>Person3</th>
+		<td>Bruce</td>
+		<td>Willis</td>
+	</tr>
+</table>
+
+
+<br>
+
+
+<p>Table with thead, tfoot, tbody</p>
+<table>
+	<thead>
+		<tr>
+			<th>Header content 1</th>
+			<th>Header content 2</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Body content 1</td>
+			<td>Body content 2</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td>Footer content 1</td>
+			<td>Footer content 2</td>
+		</tr>
+	</tfoot>
+</table>
+
+
+<br>
+
+
+<p>Table with colgroup</p>
+<table>
+	<colgroup span="4"></colgroup> <!--группа колонок шириной 4 столбца-->
+	<tr>
+		<th>Countries</th>
+		<th>Capitals</th>
+		<th>Population</th>
+		<th>Language</th>
+	</tr>
+	<tr>
+		<td>USA</td>
+		<td>Washington, D.C.</td>
+		<td>309 mil</td>
+		<td>English</td>
+	</tr>
+	<tr>
+		<td>Sweden</td>
+		<td>Stockholm</td>
+		<td>9 mil</td>
+		<td>Swedish</td>
+	</tr>
+</table>
+
+
+<br>
+
+
+<p>Table with colgroup and col</p>
+<table>
+	<colgroup>
+		<col style="background-color: green"> <!--первая колонока-->
+		<col span="2" style="background-color: yellow"> <!--группа колонок шириной 2 столбца-->
+		<col style="background-color: red">
+	</colgroup>
+	<tr>
+		<th>Lime</th>
+		<th>Lemon</th>
+		<th>Orange</th>
+		<th>Apple</th>
+	</tr>
+	<tr>
+		<td>Green</td>
+		<td>Yellow</td>
+		<td>Orange</td>
+		<td>Red</td>
+	</tr>
+</table>
+
+
+<br>
+
+
+<p>Simple table with caption</p>
+<table>
+	<caption>Awesome caption</caption>
+	<tr>
+		<td>Awesome data1</td>
+		<td>Awesome data2</td>
+	</tr>
+</table>
+
+
+<br>
+
+
+<p>Пример таблицы с объединением ячеек</p>
+<table>
+	
+	<caption>Employee salaries and start dates</caption>
+	<colgroup>
+		<col span="1">
+		<col span="2">
+	</colgroup>
+	
+	<thead>
+		<tr>
+			<th>Employee</th>
+			<th>Salary</th>
+			<th>Start date</th>
+		</tr>
+	</thead>
+	
+	<tfoot> <!-- tfoot может располагаться перед tbody, но будет отображен снизу -->
+		<tr>
+			<td colspan="3">Compiled by J.J. Abrams</td> 
+			<!-- colspan - количество столбцов, которые должна занять ячейка -->
+			<!-- rowspan - количество строк, которые должна занять ячейка -->
+		</tr>
+	</tfoot>
+
+	<tbody>
+		<tr>
+			<td>Wilma</td>
+			<td>50.000</td>
+			<td>April 6</td>
+		</tr>
+		<tr>
+			<td>John</td>
+			<td>45.000</td>
+			<td>May 15</td>
+		</tr>
+		<!-- <tr> ...дополнительные ячейки... </tr> -->
+		<!-- <tr> ...дополнительные ячейки... </tr> -->
+		<!-- <tr> ...дополнительные ячейки... </tr> -->
+	</tbody>
+
+</table>
+
+
+<br>
+
+
+<p>Textarea example</p>
+<textarea rows="5" cols="30" placeholder="tell us your story" title="Описание во всплывающей подсказке"></textarea>
+
+
+<br>
+<br>
+
+
+<p>time tag example: <time datetime="2018-07-07">July 7</time></p>
+
+
+<br>
+
+
+<p>u - тэг для семантического выделения текста с ошибками:<br>
+<u>стиль по умолчанию легко спутать со ссылкой</u><br>
+<u style="text-decoration: red wavy underline;">лушче задавать в CSS кастомный стиль</u></p>
+
+
+<br>
+
+
+<p>var - тэг семантически обозначает переменную или агрумент программы:<br>
+let <var>myString</var> = 'hello world'</p>
+
+
+<br>
+
+
+<p style="width: 530px;">wbr - позволяет задать точку разрыва в длинном слове для его переноса <br>
+11111111122222222222222222222222222222222222222222<wbr>333333333333333333</p>
+
+
+<script src="script/script.js"></script>
+
+</body>
+</html>

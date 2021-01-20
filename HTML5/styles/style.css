@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.batman {
+	background-color: #d7d9f2;
+}
+
+.flash {
+	background-color: #ffe8d4;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table, th, td {
+	padding: 5px;
+	border: 1px solid black;
+}
