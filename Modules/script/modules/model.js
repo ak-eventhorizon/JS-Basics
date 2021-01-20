@@ -2,7 +2,7 @@
 'use strict';
 
 function modelDone(){
-    console.log('MODEL module loaded!');
+    console.log('MODEL loaded!');
 }
 
 

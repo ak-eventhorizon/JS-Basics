@@ -2,7 +2,7 @@
 'use strict';
 
 function controllerDone(){
-    console.log('CONTROLLER module loaded!');
+    console.log('CONTROLLER loaded!');
 }
 
 

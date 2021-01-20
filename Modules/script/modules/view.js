@@ -2,7 +2,7 @@
 'use strict';
 
 function viewDone(){
-    console.log('VIEW module loaded!');
+    console.log('VIEW loaded!');
 }
 
 
