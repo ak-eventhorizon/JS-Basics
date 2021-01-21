@@ -22,6 +22,6 @@ JS, HTML5, CSS - Basics concept examples
 
 Реализация модульной структуры проекта, на примере модели MVC.
 
-Загрузка модулей из файловой системы запрещена для браузеров.
-Порождается ошибка - Access to script at ..... from origin 'null' has been blocked by CORS policy
+Загрузка модулей из файловой системы запрещена для браузеров, порождается ошибка - Access to script at ..... from origin 'null' has been blocked by CORS policy.
+
 Для нормальной работы требуется запускать страницу с веб сервера.
