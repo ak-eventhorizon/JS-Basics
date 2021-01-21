@@ -43,7 +43,7 @@ arr.some(function(a){return a >= 8;}); //true
 arr.some(function(a){return a >= 9;}); //false
 arr.some(function(a){return a%2 === 0;}); //true - хоть один элемент четный?
 
-//возвращение логического значения - содержит ли массив указанное значение (возвращает значение)
+//возвращение логического значения - содержит ли массив указанное значение
 arr.includes(1); //true
 arr.includes(-2); //true
 arr.includes(9); //false
